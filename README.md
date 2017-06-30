@@ -5,11 +5,16 @@ when the book was published have special small background images for those occas
 
 After running `yarn install`:
 To generate these book files run `yarn generate-books`. To run the app in a dev server run `yarn start`.
+If you don't have `yarn`, `npm` should do just fine. :)
 
 Some of the code is also tested, `yarn test` will help see how they're doing.
 
 Generating the books take quite some time, due to it using babel-node by default.
 One could run the script after transpiling to es5 using babel or something to potentially speed the process up.
+If you feel like not having fans run at high speed on your computer, let me know and I'll upload those 80mb of json files. :)
+
+It pretty much shows all of the functionality without the books as well :D.
+Except for those special backgrounds and from 0-1000 only.
 
 Some things to consider:
 react-virtualized seems like a nice-ish infinite scrolling enabler to use,
