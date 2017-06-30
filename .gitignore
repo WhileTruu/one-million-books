@@ -9,6 +9,9 @@
 # production
 /build
 
+# generated
+/public/books/*
+
 # misc
 .DS_Store
 .env.local

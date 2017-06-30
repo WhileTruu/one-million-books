@@ -1,0 +1,32 @@
+.omb-bordered-list-group {
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25em;
+  overflow: hidden;
+  background-color: white;
+}
+
+.omb-bordered-list-item {
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+}
+
+.omb-bordered-list-item.halloween {
+  background-image:
+    url('https://thumbs.dreamstime.com/t/pumpkin-single-isolated-white-background-33959399.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.omb-bordered-list-item.finance {
+  background-image:
+    url('https://www.stockvault.net/data/2011/05/15/123755/thumb16.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.omb-placeholder {
+  filter: blur(20px);
+}
