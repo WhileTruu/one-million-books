@@ -1918,7 +1918,6 @@ const names = [
 
 module.exports = {
   genres,
-  emojis,
   nouns,
   names,
 }
