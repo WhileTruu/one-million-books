@@ -1,3 +1,25 @@
+# ONE MILLION BOOKS!
+
+This quick project does nothing but render a list of random-ish-ly generated books and depending on
+when the book was published have special small background images for those occasions.
+
+After running `yarn install`:
+To generate these book files run `yarn generate-books`. To run the app in a dev server run `yarn start`.
+
+Some of the code is also tested, `yarn test` will help see how they're doing.
+
+Generating the books take quite some time, due to it using babel-node by default.
+One could run the script after transpiling to es5 using babel or something to potentially speed the process up.
+
+Some things to consider:
+react-virtualized seems like a nice-ish infinite scrolling enabler to use,
+separating it from BookList would be a sensible thing to do in the future.
+A single Book element itself (or row) shouldn't be a part of the BookList component either.
+A way should be figured out to filter values and load required book volumes.
+Another indexing system has to be used in such a case,
+since at the moment book indexes in a arrays are used to load values.
+If there is no filtering and the app does not much else, a hoc should be used rather than redux.
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
