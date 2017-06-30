@@ -19,6 +19,7 @@ export function getBooks({ startIndex, stopIndex }) {
           },
         })
       })
+      .catch(console.error)
     }
   }
 }
