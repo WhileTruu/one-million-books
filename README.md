@@ -19,6 +19,7 @@ A way should be figured out to filter values and load required book volumes.
 Another indexing system has to be used in such a case,
 since at the moment book indexes in a arrays are used to load values.
 If there is no filtering and the app does not much else, a hoc should be used rather than redux.
+Without many shown elements, bootstrap is not a smart choice either.
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
